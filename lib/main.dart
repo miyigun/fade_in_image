@@ -65,8 +65,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-                width: 200,
-                height: 200,
+                width: 250,
+                height: 250,
                 child: FadeInImage.assetNetwork(
                   placeholder: "assets/loading.gif",
                   image: imageList[imageIndex],
