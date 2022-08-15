@@ -70,6 +70,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: FadeInImage.assetNetwork(
                   placeholder: "assets/loading.gif",
                   image: imageList[imageIndex],
+                  fadeInDuration: Duration(seconds: 2),
+                  fadeInCurve: Curves.easeIn,
                 )),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
